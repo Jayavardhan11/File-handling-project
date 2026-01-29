@@ -22,7 +22,7 @@ Always be company-friendly and professional in tone.`;
 
 // Using Google Gemini API
 const GEMINI_API_URL =
-  "https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent";
+  "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent";
 
 async function chat(message) {
   if (!process.env.GEMINI_API_KEY) {
