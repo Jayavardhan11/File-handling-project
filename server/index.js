@@ -21,6 +21,7 @@ const io = new Server(httpServer, {
     origin: (origin, callback) => {
       const allowedOrigins = [
         process.env.CLIENT_URL,
+        "https://file-handling-project.onrender.com",
         "http://localhost:5173",
         "http://localhost:5174",
       ];
@@ -41,6 +42,7 @@ app.use(
     origin: (origin, callback) => {
       const allowedOrigins = [
         process.env.CLIENT_URL,
+        "https://file-handling-project.onrender.com",
         "http://localhost:5173",
         "http://localhost:5174",
       ];
