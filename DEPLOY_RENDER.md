@@ -40,8 +40,9 @@ git push -u origin main
 5. **Add Environment Variables** (click "Advanced"):
 
    ```
-   MONGODB_URI = mongodb+srv://jai:Svcet3305@jai-cluster.lc5epsm.mongodb.net/file-handler?retryWrites=true&w=majority
-   JWT_SECRET = demo_secret_key_for_testing_12345
+   MONGODB_URI = your_mongodb_connection_string
+   JWT_SECRET = your_jwt_secret_key
+   GEMINI_API_KEY = your_gemini_api_key
    CLIENT_URL = https://YOUR-FRONTEND-NAME.onrender.com
    PORT = 5000
    NODE_ENV = production
