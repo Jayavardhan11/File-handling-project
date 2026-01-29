@@ -96,7 +96,8 @@ const Dashboard = () => {
   // Initialize Socket.io
   useEffect(() => {
     const socketUrl =
-      import.meta.env.VITE_SOCKET_URL || "http://localhost:5000";
+      import.meta.env.VITE_SOCKET_URL ||
+      "https://file-handling-project-backend.onrender.com";
     const socketInstance = io(socketUrl, {
       auth: {
         token: localStorage.getItem("token"),
